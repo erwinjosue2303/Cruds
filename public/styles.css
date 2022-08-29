@@ -1,0 +1,36 @@
+*{
+    background-color: antiquewhite;
+ }
+
+*{
+    text-align: center;
+ }
+
+.titulo{
+    text-align: center;
+    text-size-adjust: 50px;
+    background: rgb(13, 123, 29);
+    }
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-green{
+    color: white;
+    background-color: rgb(13, 123, 29);
+}
+
+.form{
+    text-decoration: none;
+    border-radius: 5px;
+   background-color: white;
+   padding: 20px;
+    margin: 0 auto;
+    width: 350px;
+}
