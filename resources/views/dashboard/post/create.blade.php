@@ -22,6 +22,14 @@
    <form class="form" action="{{route('post.store')}}" method="post">
     @csrf
 
+    @if(session('status'))
+        <div class="alert alert-success">
+          {{session('status')}}
+
+        </div>
+
+    @endif
+
 
     <label for="">Titulo</label>
     <input type="text" name="title"> <br><br>
